@@ -340,6 +340,7 @@ form button{
     color: white;
     border-radius: 3px;
     letter-spacing: 0.3em;
+    outline: none;
 }
 form button:hover{
     cursor: pointer;
