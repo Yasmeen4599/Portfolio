@@ -51,7 +51,7 @@ a, li {
     align-items: center;
 }  
 .navlink_li + .navlink_li, .tab-links + .tab-links {
-    margin-left: 7%;
+    margin-left: 5%;
 }
 .navlink_a{
     position: relative;
@@ -112,6 +112,7 @@ a, li {
     text-align: center;
 }
 .lady {
+    width: 85%;
     filter: drop-shadow(8em 6em 7em rgb(126, 125, 125));
 }
 
