@@ -342,6 +342,7 @@ form button{
     border-radius: 3px;
     letter-spacing: 0.3em;
     border: none;
+    font-family: "Lexend", sans-serif;
 }
 form button:hover{
     cursor: pointer;
