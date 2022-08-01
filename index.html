@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="portfolio.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Montserrat:wght@100;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend:wght@400&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/24b5629148.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- Header -->
+
+    <div id="header">
+      <header class="container dark-bg header-path">
+        <nav class="nav">
+          <div class="logo">
+            <h1>
+              <a href="#" class="navlogo"
+                ><span class="initial">Y</span>asmeenF.</a
+              >
+            </h1>
+          </div>
+          <div class="navlinks">
+            <ul class="navlink_ul">
+              <li class="navlink_li">
+                <a href="#header" class="navlink_a">HOME</a>
+              </li>
+              <li class="navlink_li">
+                <a href="#about" class="navlink_a">ABOUT</a>
+              </li>
+              <li class="navlink_li">
+                <a href="#services" class="navlink_a">SERVICES</a>
+              </li>
+              <li class="navlink_li">
+                <a href="#portfolio" class="navlink_a">PORTFOLIO</a>
+              </li>
+              <li class="navlink_li">
+                <a href="#contact" class="navlink_a">CONTACT ME</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+        <section class="main">
+          <div class="row">
+            <div class="subsection">
+              <h1 class="hero-text">
+                I Develop<br />
+                Your Dream
+              </h1>
+              <p class="hero-subtext">I'M A WEB DEVELOPER</p>
+              <a href="#" class="btn hero-subtext">PORTFOLIO</a>
+            </div>
+            <div class="image_section">
+              <img
+                class="lady"
+                src="lady.png"
+                alt="Oops! Couldn't load image"
+              />
+            </div>
+          </div>
+        </section>
+      </header>
+    </div>
+
+    <!-- About -->
+
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <img src="R.png" alt="" />
+          </div>
+          <div class="col-2">
+            <h1 class="headings">About Me.</h1>
+            <p class="about-me">
+              Welcome to my Portfolio! I'm Yasmeen Fatima, another being in this
+              tech-world who aspires to be a Web Developer, but with an edge.
+              <br />
+              I ❤ learning new things and acing everything I learn to give my
+              100% shot.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li>
+                  <span>Web Development</span><br />HTML, CSS, Bootstrap,
+                  JavaScript, jQuery
+                </li>
+                <li>
+                  <span>WordPress Development</span><br />Elementor and Visual
+                  Composer plugins
+                </li>
+                <li>
+                  <span>Microsoft Office</span><br />MS Word, MS Excel, MS
+                  Powerpoint
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span>August 2022 - Present</span><br />Analyst Trainee at
+                  DWAO LLP
+                </li>
+                <li>
+                  <span>May 2022 - June 2022</span><br />Web Development Intern
+                  at Exposys Data Labs
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>2018 - 2022</span><br />BTech in CSE from SWCET
+                  Hyderabad<br />JNTUH University
+                </li>
+                <li>
+                  <span>2016 - 2018</span><br />Intermediate at Shadan Junior
+                  College for Girls, Telangana<br />TSBIE Board
+                </li>
+                <li>
+                  <span>2004 - 2016</span><br />Schooling from Sharjah Indian
+                  School, UAE<br />CBSE Board
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services -->
+
+    <div id="services">
+      <div class="container dark-bg services-path">
+        <h1 class="headings">My Services.</h1>
+        <div class="services-list">
+          <div class="row">
+            <div class="card">
+              <i class="fa-solid fa-code"></i>
+              <h2>Web Development</h2>
+              <p>
+                I'm well-versed with the advanced fundamentals of HTML, CSS and
+                Bootstrap, along with the basics of JavaScript and jQuery.
+                Contact me for custom coding.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-wordpress"></i>
+              <h2>WordPress Development</h2>
+              <p>
+                Be sure to ping me up if any service via WordPress is required.
+                I can develop websites using Elementor and Visual Composer
+                plugins along with various themes.
+              </p>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-microsoft"></i>
+              <h2>Microsoft Office</h2>
+              <p>
+                Apart from developing websites, I'm also interested in analysing
+                data on MS Excel, editing documents on MS Word, and creating
+                presentations on MS Powerpoint.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio -->
+
+    <div id="portfolio">
+      <div class="container dark-bg portfolio-path">
+        <h1 class="headings">My Work.</h1>
+        <div class="work-list">
+          <div class="row">
+            <div class="col1">
+              <div class="work">
+                <img src="work-1.png" alt="" />
+                <div class="layer">
+                  <h3>EduRay University</h3>
+                  <p>
+                    This is an official website of EduRay University (a
+                    fictional one), designed and developed through custom
+                    coding.
+                  </p>
+                  <a
+                    href="https://eduray-university.herokuapp.com/"
+                    target="_blank"
+                    ><i class="fa-solid fa-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work-2.png" alt="" />
+                <div class="layer">
+                  <h3>Labelify</h3>
+                  <p>
+                    Here, you can label your data in the shortest time possible
+                    with the highest accuracy of quality management. Designed
+                    using Elementor plugin of WordPress.
+                  </p>
+                  <a href="https://www.datalabelify.com/" target="_blank"
+                    ><i class="fa-solid fa-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work-3.png" alt="" />
+                <div class="layer">
+                  <h3>Landie</h3>
+                  <p>
+                    A landing page converted into a website from Figma and
+                    designed using Elementor plugin of WordPress.
+                  </p>
+                  <a
+                    href="https://yasmeen4599.github.io/landie/"
+                    target="_blank"
+                    ><i class="fa-solid fa-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <div class="col2">
+              <div class="work">
+                <img src="work-4.png" alt="" />
+                <div class="layer">
+                  <h3>AppSite</h3>
+                  <p>
+                    A business promoting website, designed through Bootstrap.
+                  </p>
+                  <a
+                    href="https://yasmeen4599.github.io/appSite/"
+                    target="_blank"
+                    ><i class="fa-solid fa-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work-5.png" alt="" />
+                <div class="layer">
+                  <h3>Mosambee</h3>
+                  <p>
+                    A dummy of the Mosambee website used for providing
+                    end-to-end payment solutions for Debit and Credit Card
+                    transactions.
+                  </p>
+                  <a
+                    href="https://yasmeen4599.github.io/mosambee/"
+                    target="_blank"
+                    ><i class="fa-solid fa-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+              <div class="work">
+                <img src="work-6.png" alt="" />
+                <div class="layer">
+                  <h3>My First Website</h3>
+                  <p>
+                    This was my first website designed and developed purely
+                    through HTML and CSS.
+                  </p>
+                  <a
+                    href="https://yasmeen4599.github.io/My-Website/"
+                    target="_blank"
+                    ><i class="fa-solid fa-up-right-from-square"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+
+    <div id="contact">
+      <div class="container dark-bg contact-path">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="headings">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-paper-plane"></i>yasmeenfatima16@gmail.com
+            </p>
+            <p><i class="fa-solid fa-square-phone"></i>+916309827073</p>
+            <div class="social-icons">
+              <a
+                href="https://www.instagram.com/yasmeen_4599/?hl=en"
+                target="_blank"
+                ><i class="fa-brands fa-instagram"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/yasmeen-fatima-4b16731b0/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+              <a href="https://github.com/Yasmeen4599" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </div>
+            <a
+              href="https://drive.google.com/file/d/1tiXVyKuYVQQ-YNImRlKAg-xh85TRCQr8/view?usp=sharing"
+              class="btn hero-subtext"
+              download
+              target="_blank"
+              >DOWNLOAD RESUME</a
+            >
+          </div>
+          <div class="contact-right">
+            <form action="">
+              <input type="text" name="Name" placeholder="Your Name" required />
+              <input
+                type="email"
+                name="Email"
+                placeholder="Your Email"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="5"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit">SUBMIT</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>Copyright &copy; Yasmeen Fatima.</p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
